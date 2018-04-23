@@ -12,8 +12,8 @@ class Root(QStandardItem):
         super().__init__('Root')
         for _ in range(5):
             self.appendRow([
-                QStandardItem(str(randint(0, 100))),
-                QStandardItem(str(randint(0, 100)))
+                QStandardItem(str(randint(10, 100))),
+                QStandardItem(str(randint(10, 100)))
             ])
 
 
